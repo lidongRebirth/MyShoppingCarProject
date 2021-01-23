@@ -182,7 +182,7 @@ internal class MySectionDecoration(
         c.drawText(
             groupTitleName,
             left.toFloat(),
-            2 * viewTitleHeight - topHeight - distance,
+            (2 * viewTitleHeight - topHeight)/2 + distance,
             textPaint
         )
     }
